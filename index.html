@@ -20,9 +20,12 @@
       <!-- header -->
       <header class="header">
         <div class="menu-icon">
-          <span class="material-icons-outlined"> search </span>
+          <span class="material-icons-outlined"> menu </span>
         </div>
 
+        <div class="search">
+          <span class="material-icons-outlined"> search </span>
+        </div>
         <div class="cta">
           <span class="material-icons-outlined"> notifications </span>
           <span class="material-icons-outlined"> email </span>
@@ -34,8 +37,8 @@
       <!-- sidebar -->
       <aside id="sidebar">
         <div class="logo">
-          <span class="material-icons-outlined"> inventory </span>
-          <p class="text-primary">Inventory</p>
+          <div class="logo_brand"><span class="material-icons-outlined"> inventory </span> Inventory</div>
+          <span class="material-icons-outlined" id="close"> close </span>
         </div>
 
         <div class="menu-items">
@@ -54,14 +57,14 @@
             </li>
             <li>
               <a href="#"
-                ><span class="material-icons-outlined"> inventory </span>
+                ><span class="material-icons-outlined"> fact_check </span>
                 Inventory</a
               >
             </li>
             <li>
               <a href="#"
                 ><span class="material-icons-outlined">
-                  production_quantity_limits
+                  add_shopping_cart
                 </span>
                 Purchase Orders</a
               >
@@ -100,7 +103,7 @@
                 inventory_2
               </span>
             </div>
-            <p class  ="number">249</p>
+            <p class="number">249</p>
           </div>
 
           <div class="cards card-orange">
